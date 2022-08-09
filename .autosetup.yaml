@@ -1,0 +1,29 @@
+update-info:
+  isTemplate: true
+  isInitialized: false
+  version:
+    current:
+      commit: b28ea2421dc729652390da7d44b5608b1501b57d
+      date: 2022-07-08 19:04:51 +0300
+  updateFiles:
+  - .github/generate-base-yaml-json.py
+  - .github/modify-twin-yamls.py
+  - .github/script-copy-index-html.sh
+  - .github/script-yamls-to-jsons.sh
+  - .github/update-twindocs.py
+  - .github/workflows/file-modifier.yml
+  - .github/workflows/override-with-yamls.yml
+  - .gitignore
+  - LICENSE
+  - README.md
+  - docs/README.md
+  - docs/index.html
+  - docs/index.json
+  - docs/index.yaml
+  - docs/new-twin/index.html
+  - docs/new-twin/template.yaml
+  - docs/static/dt-page.html
+  - docs/static/index.html
+  - docs/static/jsonview.bundle.css
+  - docs/static/jsonview.bundle.js
+  - requirements.txt
