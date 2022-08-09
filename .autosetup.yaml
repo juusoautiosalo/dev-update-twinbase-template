@@ -1,6 +1,6 @@
 update-info:
-  isTemplate: false
-  isInitialized: true
+  isTemplate: true
+  isInitialized: false
   version:
     current:
       commit: b28ea2421dc729652390da7d44b5608b1501b57d

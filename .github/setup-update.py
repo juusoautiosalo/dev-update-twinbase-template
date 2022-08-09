@@ -10,9 +10,11 @@ with open('.autosetup.yaml', 'r') as file:
 repo = Repo()
 g = Git(os.getcwd())
 
+repourl = 'https://github.com/' + os.environ["GITHUB_REPOSITORY"] # for local dev, set in bash: export GITHUB_REPOSITORY=<username>/<reponame>
+
 # Set repo as instance if origin does not equal template target
 if not autosetup['update-info']['isInitialized']:
-    if setup['update-info']['template'] + '.git' != repo.remotes.origin.url:
+    if setup['update-info']['template'] != repourl:
         autosetup['update-info']['isTemplate'] = False
         print('Detected difference between template and current repo URLs.')
         print('=> Marked repo as instance to .autosetup.yaml.')
