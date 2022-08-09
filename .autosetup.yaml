@@ -3,13 +3,16 @@ update-info:
   isInitialized: false
   version:
     current:
-      commit: b28ea2421dc729652390da7d44b5608b1501b57d
-      date: 2022-07-08 19:04:51 +0300
+      commit: 304bdfcde071cba89e7c38d1b41737e9bcadd805
+      date: 2022-08-09 23:40:30 +0300
   updateFiles:
+  - .autosetup.yaml
   - .github/generate-base-yaml-json.py
   - .github/modify-twin-yamls.py
   - .github/script-copy-index-html.sh
   - .github/script-yamls-to-jsons.sh
+  - .github/setup-update.py
+  - .github/update-twinbase.py
   - .github/update-twindocs.py
   - .github/workflows/file-modifier.yml
   - .github/workflows/override-with-yamls.yml
